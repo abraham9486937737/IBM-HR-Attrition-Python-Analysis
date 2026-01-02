@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Datasets (do not commit raw data)
+01_dataset/raw/*.csv
+01_dataset/raw/*.xlsx
+01_dataset/raw/*.zip
